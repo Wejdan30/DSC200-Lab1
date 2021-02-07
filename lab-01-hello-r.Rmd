@@ -1,11 +1,11 @@
 ---
 title: "Lab 01 - Hello R"
-author: "Musab Isah"
-date: "1/26/2021"
+author: "Wejdan Abdulrhman Al-Harthy" 
+date: "7/2/2021"
 output: html_document
 ---
 
-University ID: 
+University ID: 2201001406
 
 ### Load packages
 
@@ -17,4 +17,4 @@ library(datasauRus)
 
 ### Lab Exercise
 
-(Type your answer to the Exercise here. Remember to include the code, you need to put the code between three backticks followed by the following line on top of the code {r load-packages, message=FALSE}. See 'Load Packages' above as an example. Delete everything in these brackets after typing your answer.)
+The concept from the data, which is that there are 13 rows in which there is an x axis with specified values, and there is also a y with specific values

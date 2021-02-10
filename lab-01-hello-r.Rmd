@@ -1,6 +1,6 @@
 ---
 title: "Lab 01 - Hello R"
-author: "wejdan Abdulrhman Al-Harthy" 
+author: "Wejdan Abdulrhman Al-Harthy" 
 date: "7/2/2021"
 output: html_document
 ---
@@ -21,3 +21,6 @@ library(datasauRus)
 
 answer task3
 In the previous figure, I have the shape of a dinosaur and it has a correlation coefficient of -0,0645, and now I have the shape of a star and it has a correlation coefficient of -0,0630 when comparing the two shapes. The dinosaur has a larger correlation coefficient and the star has a lower correlation coefficient
+
+answer task4
+When comparing the shape of the dino and the circle, the special correlation coefficient for the dino is -0.0645, the correlation coefficient for the circuit is -0.0683, so the circuit has a larger correlation coefficient, and the dino has a lower correlation coefficient

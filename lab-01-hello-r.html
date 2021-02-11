@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Wejdan Abdulrhman Al-Harthy" />
+<meta name="author" content="wejdan Abdulrhman Al-Harthy" />
 
 
 <title>Lab 01 - Hello R</title>
@@ -189,7 +189,7 @@ summary {
 
 
 <h1 class="title toc-ignore">Lab 01 - Hello R</h1>
-<h4 class="author">Wejdan Abdulrhman Al-Harthy</h4>
+<h4 class="author">wejdan Abdulrhman Al-Harthy</h4>
 <h4 class="date">7/2/2021</h4>
 
 </div>
@@ -205,7 +205,9 @@ library(datasauRus)</code></pre>
 <h3>Lab Exercise</h3>
 <p>(The concept from the data, which is that there are 13 rows in which there is an x axis with specified values, and there is also a y with specific values)</p>
 <p>answer task3 In the previous figure, I have the shape of a dinosaur and it has a correlation coefficient of -0,0645, and now I have the shape of a star and it has a correlation coefficient of -0,0630 when comparing the two shapes. The dinosaur has a larger correlation coefficient and the star has a lower correlation coefficient</p>
+<p>star_data &lt;- datasaurus_dozen %&gt;% filter(dataset == “star”) ggplot(data = star_data, mapping = aes(x = x, y = y)) + geom_point() star_data %&gt;% summarize(r = cor(x, y))</p>
 <p>answer task4 When comparing the shape of the dino and the circle, the special correlation coefficient for the dino is -0.0645, the correlation coefficient for the circuit is -0.0683, so the circuit has a larger correlation coefficient, and the dino has a lower correlation coefficient</p>
+<p>circle_data &lt;- datasaurus_dozen %&gt;% filter(dataset == “dino”) ggplot(data = circle_data, mapping = aes(x = x, y = y)) + geom_point() circle_data %&gt;% summarize(r = cor(x, y))</p>
 </div>
 
 
